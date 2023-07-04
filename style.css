@@ -1,0 +1,73 @@
+
+
+.Container{
+    margin: auto;
+    border: 2px solid black;
+    height: 50;
+    width: 55vw;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px 20px 20px
+    
+    
+}
+a{
+    text-decoration: none;
+    
+}
+
+button{
+    background-color: #ac231f;
+  color: white; 
+  padding: 10px 20px; 
+  border: none; 
+  border-radius: 50px; 
+  font-size: 16px; 
+  cursor: pointer; 
+}
+
+.icon{
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+
+
+.card{
+    margin-top: 10px;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+    
+
+
+}
+.head-card{
+    display: flex;
+    justify-content: center;
+}
+
+.profile-image{
+    width: 150px;
+    height: 190px;
+    border-radius: 5%;
+    object-fit: cover;
+  }
+
+  .text{
+    text-align: center;
+    margin: 0%;
+  }
+
+.name{
+    margin: 0%;
+}
+
+span{
+    color: brown;
+    font-weight: 700;
+}
